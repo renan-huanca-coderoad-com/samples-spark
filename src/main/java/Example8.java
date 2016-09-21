@@ -95,8 +95,6 @@ public class Example8 {
 			}
 		});
 
-		input.print();
-		
 		ssc.start();
 		try {
 			ssc.awaitTermination();
