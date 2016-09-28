@@ -27,8 +27,8 @@ public class Example2 {
 					}
 				});
 
-		logger.info("filtered.count: " + filtered.count());
-		logger.info("filtered: " + filtered);
+		logger.info(">>> filtered.count: " + filtered.count());
+		logger.info(">>> filtered: " + filtered);
 		
 		sc.close();
 	}
