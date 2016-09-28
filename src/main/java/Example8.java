@@ -21,7 +21,7 @@ public class Example8 {
 	public static class Operator {
 		public String operator;
 	}
-//TEST
+//TEST 01
 	public static class Processor implements VoidFunction<JavaRDD<String>> {
 		private static final long serialVersionUID = 1L;
 
