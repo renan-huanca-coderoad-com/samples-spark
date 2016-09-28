@@ -14,7 +14,7 @@ public class Example2 {
 		JavaSparkContext sc = new JavaSparkContext(conf);
 		JavaRDD<String> numbers = sc.textFile("numbers.txt");
 
-		logger.info("first:" + numbers.first());
+		logger.info(">>>> first:" + numbers.first());
 
 		JavaRDD<String> filtered = numbers
 				.filter(new Function<String, Boolean>() {

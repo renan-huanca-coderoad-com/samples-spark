@@ -20,6 +20,8 @@ public class Example1 {
 			l.add(i);
 		}
 
+               System.out.println("before"); 
+
 		long count = sc.parallelize(l).filter(new Function<Integer, Boolean>() {
 			public Boolean call(Integer i) {
 				double x = Math.random();
