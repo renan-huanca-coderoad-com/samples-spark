@@ -32,7 +32,7 @@ public class Example3 {
 
 			@Override
 			public void call(Integer item) throws Exception {
-				logger.info("item: " + item);
+				logger.info(">>> item: " + item);
 			}
 		});
 		
